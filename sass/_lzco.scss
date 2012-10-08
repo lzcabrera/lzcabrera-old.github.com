@@ -1,0 +1,25 @@
+h1{
+	font-family: 'Ranchers', cursive;
+}
+
+h2{
+	font-family: 'Ranchers', cursive;
+}
+
+
+.related .posts a{display:block;font-weight:bold;}
+.related .posts span{color:$copyrightColor;}
+.related ul{list-style-type: none;}
+.related ul li{
+	margin-bottom:10px;
+}
+
+.posts-list{
+	list-style-type: none;
+}
+
+.copyright{
+	text-align:center;
+	color:$copyrightColor;
+	font-size-adjust:0.5;
+}

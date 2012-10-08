@@ -1,0 +1,6 @@
+---
+layout: post
+title: "2011 Scotiabank Half-Marathon Course Map"
+---
+
+Since the previous  map we created with an interactive course map for a half-marathon was a hit, we decided to create one for the 2011 Vancouver Scotiabank Half-Marathon. Here is the <a href="http://funnelcity.com/en/microsite/map/vancouver-scotiabank-2011/">course map</a> for all of you training for the race. The date is fast approaching, so make sure you get your training runs in. Take advantage of the gorgeous spring weather!<br /><br /><a href="http://www.canadarunningseries.com/svhm/index.htm">Visit </a>the race official site for more details.<br /><br /><br />See <a href="http://www.funnelcity.com/en/microsite/map/vancouver-scotiabank-2011/"><b>full page</b></a> mode or the <a href="http://www.funnelcity.com/en/microsite/map/vancouver-scotiabank-2011/"><b>mobile version</b></a>.<br /><br /><iframe src="http://www.funnelcity.com/en/microsite/map/vancouver-scotiabank-2011/" height="400" width="100%" border="0"></iframe><br /><br />Happy Training :)

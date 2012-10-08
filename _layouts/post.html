@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="eight columns">
+		<div class="post">
+			<h1>{{page.title}}</h1>
+			{{ content }}
+		</div>
+	</div>
+	<div class="four columns">
+		<div class="related">
+			<h2>Latest Posts</h2>
+			<ul class="posts">
+			    {% for post in site.related_posts limit:3 %}
+			      <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+			    {% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
