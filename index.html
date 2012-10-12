@@ -3,10 +3,23 @@ layout: default
 title: lz:co
 ---
 
-<h2>Blog Posts</h2>
-<ul class="posts-list">
-		{% for post in site.posts %}
-    		<li><span>{{ post.date | date: '%d-%m-%Y'  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    	{% endfor %}
-</ul>
+<div class="row">
+	<div class="six columns">
+		<h2>Blog Posts</h2>
+		<ul class="posts-list">
+				{% for post in site.posts %}
+		    		<li><span>{{ post.date | date: '%d-%m-%Y'  }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+		    	{% endfor %}
+		</ul>
+	</div>
+	<div class="six columns">
+		
+
+		<div id="twitter-tweet-lc">
+		</div>
+
+		<div id="sample_user_badge"></div>
+	
+	</div>
+</div>
 					

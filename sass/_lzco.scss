@@ -19,7 +19,13 @@ h2{
 }
 
 .copyright{
+	margin-top:20px;
 	text-align:center;
 	color:$copyrightColor;
 	font-size-adjust:0.5;
+}
+
+#github-badge{
+	border: 0;height: 142px;width: 100%;overflow: hidden;
+	margin-top:20px;
 }

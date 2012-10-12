@@ -31,4 +31,28 @@
     });
   }
 
+  $.ajax({
+    type: 'GET',
+    url: 'https://api.twitter.com/1/statuses/oembed.json?id=251508898299777026',
+    dataType: 'jsonp',
+    success: function(json) {
+        var result = json.html;
+        $('#twitter-tweet-lc').append(result);
+    }
+  });
+
+  $("#sample_user_badge").GitHubBadge({
+                login: "lzcabrera",
+                sort_on: "date", // "date" or "name"
+                sorting: "descending"
+                
+            });
+
+  
+
+
 })(jQuery, this);
+
+
+     
+
