@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "IRIS"
+title: "Moving blog to Github pages"
 ---
 
 Hola Mundo!
 
-I'm going to see Cirque de Soleil **[IRIS](http://www.cirquedusoleil.com/en/shows/iris/show/about.aspx)** next weekend while visiting Los Angeles, California.
-Here is a [preview](http://www.youtube.com/embed/GGVVypUMG3c) of the show. Should be an interesting and memorable one, it will be my first Cirque du Soleil show.
+I am moving my blog to <a href="http://github.com">Github</a>.
 
-lc
+## Why?
+
+So that I have a lot more control on the design and layout via <a href="http://jekyllrb.com/">Jekyll</a> because that's how cool kids do it nowadays :)
