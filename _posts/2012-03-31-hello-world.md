@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "IRIS"
+title: "Moving blog to Github Pages using Jekyll"
 ---
 
 Hola Mundo!
 
-I'm going to see Cirque de Soleil **[IRIS](http://www.cirquedusoleil.com/en/shows/iris/show/about.aspx)** next weekend while visiting Los Angeles, California.
-Here is a [preview](http://www.youtube.com/embed/GGVVypUMG3c) of the show. Should be an interesting and memorable one, it will be my first Cirque du Soleil show.
+I have moved my blog to **[Github Pages](http://pages.github.com)**. It is now running on **[Jekyll](http://jekyllrb.com/)**, so I have a lot more control over the design and layout and I will be writing my posts mostly in markdown.
 
-lc
+
+
