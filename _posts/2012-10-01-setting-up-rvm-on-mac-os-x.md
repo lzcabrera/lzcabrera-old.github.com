@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 1a: Setting up RVM (Ruby Version Manager) on Mac OS X"
+title: "Setting up RVM (Ruby Version Manager) on Mac OS X"
 ---
 
 
