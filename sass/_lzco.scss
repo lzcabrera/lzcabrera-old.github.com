@@ -16,6 +16,7 @@ h2{
 
 .posts-list{
 	list-style-type: none;
+	li{margin:5px 0;}
 }
 
 .copyright{
@@ -28,4 +29,14 @@ h2{
 #github-badge{
 	border: 0;height: 142px;width: 100%;overflow: hidden;
 	margin-top:20px;
+}
+
+.top-bar .rss a {
+
+	position:relative;
+
+	img{
+		position:absolute;
+		top:14px;
+	}
 }
