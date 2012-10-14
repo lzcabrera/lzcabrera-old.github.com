@@ -40,3 +40,30 @@ h2{
 		top:14px;
 	}
 }
+
+.post .step{
+	padding:20px 20px 20px 20px;
+	margin-bottom:15px;
+	@include border-radius(4px, 4px);
+
+	p > span{
+		font-weight:bold;
+		color:#777;
+		font-size:ms(2);
+		margin-right:10px;
+	}
+}
+.post .step:nth-child(odd){
+	background:#EEF1F2;
+}
+.post .step:nth-child(even){
+	background:#EBF4F6;
+}
+
+.post p:first-child{
+	font-weight:bold;
+}
+.post .step ul{
+	list-style-position: outside;
+	margin-left:20px;
+}
