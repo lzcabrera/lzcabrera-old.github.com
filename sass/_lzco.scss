@@ -1,5 +1,8 @@
-h1{
+h1, .logo{
 	font-family: 'Ranchers', cursive;
+}
+.logo{
+	font-size-adjust:0.9;
 }
 
 h2{
@@ -31,15 +34,6 @@ h2{
 	margin-top:20px;
 }
 
-.top-bar .rss a {
-
-	position:relative;
-
-	img{
-		position:absolute;
-		top:14px;
-	}
-}
 
 .post .step{
 	padding:20px 20px 20px 20px;

@@ -5037,46 +5037,51 @@ div.progress.round .meter {
 }
 
 /* line 1, ../sass/_lzco.scss */
-h1 {
+h1, .logo {
   font-family: 'Ranchers', cursive;
 }
 
-/* line 5, ../sass/_lzco.scss */
+/* line 4, ../sass/_lzco.scss */
+.logo {
+  font-size-adjust: 0.9;
+}
+
+/* line 8, ../sass/_lzco.scss */
 h2 {
   font-family: 'Ranchers', cursive;
 }
 
-/* line 10, ../sass/_lzco.scss */
+/* line 13, ../sass/_lzco.scss */
 .related .posts a {
   display: block;
   font-weight: bold;
 }
 
-/* line 11, ../sass/_lzco.scss */
+/* line 14, ../sass/_lzco.scss */
 .related .posts span {
   color: #999999;
 }
 
-/* line 12, ../sass/_lzco.scss */
+/* line 15, ../sass/_lzco.scss */
 .related ul {
   list-style-type: none;
 }
 
-/* line 13, ../sass/_lzco.scss */
+/* line 16, ../sass/_lzco.scss */
 .related ul li {
   margin-bottom: 10px;
 }
 
-/* line 17, ../sass/_lzco.scss */
+/* line 20, ../sass/_lzco.scss */
 .posts-list {
   list-style-type: none;
 }
-/* line 19, ../sass/_lzco.scss */
+/* line 22, ../sass/_lzco.scss */
 .posts-list li {
   margin: 5px 0;
 }
 
-/* line 22, ../sass/_lzco.scss */
+/* line 25, ../sass/_lzco.scss */
 .copyright {
   margin-top: 20px;
   text-align: center;
@@ -5084,7 +5089,7 @@ h2 {
   font-size-adjust: 0.5;
 }
 
-/* line 29, ../sass/_lzco.scss */
+/* line 32, ../sass/_lzco.scss */
 #github-badge {
   border: 0;
   height: 142px;
@@ -5093,17 +5098,7 @@ h2 {
   margin-top: 20px;
 }
 
-/* line 34, ../sass/_lzco.scss */
-.top-bar .rss a {
-  position: relative;
-}
 /* line 38, ../sass/_lzco.scss */
-.top-bar .rss a img {
-  position: absolute;
-  top: 14px;
-}
-
-/* line 44, ../sass/_lzco.scss */
 .post .step {
   padding: 20px 20px 20px 20px;
   margin-bottom: 15px;
@@ -5111,7 +5106,7 @@ h2 {
   -moz-border-radius: 4px / 4px;
   border-radius: 4px / 4px;
 }
-/* line 49, ../sass/_lzco.scss */
+/* line 43, ../sass/_lzco.scss */
 .post .step p > span {
   font-weight: bold;
   color: #777;
@@ -5119,22 +5114,22 @@ h2 {
   margin-right: 10px;
 }
 
-/* line 56, ../sass/_lzco.scss */
+/* line 50, ../sass/_lzco.scss */
 .post .step:nth-child(odd) {
   background: #EEF1F2;
 }
 
-/* line 59, ../sass/_lzco.scss */
+/* line 53, ../sass/_lzco.scss */
 .post .step:nth-child(even) {
   background: #EBF4F6;
 }
 
-/* line 63, ../sass/_lzco.scss */
+/* line 57, ../sass/_lzco.scss */
 .post p:first-child {
   font-weight: bold;
 }
 
-/* line 66, ../sass/_lzco.scss */
+/* line 60, ../sass/_lzco.scss */
 .post .step ul {
   list-style-position: outside;
   margin-left: 20px;

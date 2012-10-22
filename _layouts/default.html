@@ -20,6 +20,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="/stylesheets/app.css">
+	<link href="/resources/webfonts/ss-social.css" rel="stylesheet" />
 	
 	<script src="/javascripts/foundation/modernizr.foundation.js"></script>
 
@@ -47,18 +48,19 @@
 	<div class="fixed contain-to-grid">
 			<nav class="top-bar">
 			  <ul>
-			    <li class="name"><h1><a href="#">lz:co</a></h1></li>
+			    <li class="name"><a href="/" class="logo">lz:co</a></li>
 			    <li class="toggle-topbar"><a href="#"></a></li>
 			  </ul>
 			  <section>
 			    <ul class="left">
-			      <li><a href="/">blog</a></li>
-			      <li><a href="http://github.com/lzcabrera">github</a></li>
-			      <li><a href="http://twitter.com/lauracabrera">twitter</a> </li>
-			      <li class="rss"><a href="http://feeds.feedburner.com/laura-cabrera/blog">
-        			<img src="/images/interface/rss.png" alt="Subscribe to RSS Feed" />
-      			   </a>
-      			   </li>
+			      <li><a href="http://github.com/lzcabrera">
+			      	<i class="ss-icon ss-social-circle">githuboctocat</i> github</a></li>
+			      <li><a href="http://twitter.com/lauracabrera" >
+			      	<i class="ss-icon ss-social-circle">twitter</i> twitter</a></li>
+			      <li><a href="http://ca.linkedin.com/in/lauracabrera" >
+			      	<i class="ss-icon ss-social-circle">linkedin</i> linkedin</a> </li>
+			      <li><a href="http://feeds.feedburner.com/laura-cabrera/blog">
+			      	<i class="ss-icon ss-social-circle">rss</i> rss</a></li>
 			    </ul>
 
 			    
@@ -78,7 +80,7 @@
 
 	<div class="row">
 		<div class="twelve columns">
-			<p class="copyright">laura cabrera &copy; {{ site.time | date: '%Y' }}</p>
+			<p class="copyright">laura cabrera &copy; {{ site.time | date: '%Y' }} </p>
 		</div>
 	</div>
 
